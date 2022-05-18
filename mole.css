@@ -1,4 +1,31 @@
-/* Your code here */
+body {}
+
+.container {
+  position: relative;
+  height: auto ;
+  width: auto ;
+}
+
+.wgs {
+  display: inline-block;
+  height: auto ;
+  width: 650px ;
+}
+
+.wgs-mole-head {
+  position: absolute;
+  left: auto ; 
+  right: ;
+  height: ;
+  
+}
+
+.wgs-dirt-pile {
+  position: absolute;
+  top: 262px;
+  height: ;
+  width: ;
+}
 
 
 
