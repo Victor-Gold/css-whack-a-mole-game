@@ -1,6 +1,16 @@
 body {
-  /* position: relative; */
+  position: relative;
+  zoom: 0.5;
+  /* transform: scale(0.7); */
 }
+
+.playing-field {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 1fr 1fr;
+}
+
+
 
 .wgs {
   position: relative;
@@ -13,9 +23,8 @@ body {
 .wgs-mole-head {
   position: absolute;
   overflow: hidden;
-  left: 109px ; ;
-  right: 155px ;
-  height: ;
+  left: 109px;
+  right: 155px;
   transition: margin-top 0.25s;
 }
 
@@ -26,14 +35,13 @@ body {
   width: ;
 }
 
-.wgs-mole-head--hidden {
+.wgs__mole-head--hidden {
   margin-top: 500px;
 }
 
+.wgs__mole-head--whacked {}
 
-
-/* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
-/* .sb {
+.sb {
   background-color: cornflowerblue;
   border-bottom: 1px solid #645DED;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -42,17 +50,17 @@ body {
   font-size: 30px;
   margin-bottom: 50px;
   padding: 10px 20px;
-} */
+}
 
-/* .sb__mole-counter {
+.sb__mole-counter {
   flex: 1 0 0;
   text-align: right;
-} */
+}
 
-/* .sb__score-holder {
+.sb__score-holder {
   flex: 1 0 0;
-} */
+}
 
-/* .sb__game-over--hidden {
+.sb__game-over--hidden {
   display: none;
-} */
+}
