@@ -56,3 +56,14 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+// window.addEventListener('DOMContentLoaded', () => {
+
+//   setInterval(() => {
+//     const moleHeads = document.querySelectorAll('.wgs-mole-head');
+//     for (let moleHead of moleHeads) {
+//       moleHead.classList.toggle('wgs-mole-head--hidden');
+//     }
+//   }, 1000);
+
+// });

@@ -1,23 +1,22 @@
-body {}
-
-.container {
-  position: relative;
-  height: auto ;
-  width: auto ;
+body {
+  /* position: relative; */
 }
 
 .wgs {
+  position: relative;
   display: inline-block;
-  height: auto ;
-  width: 650px ;
+  height: 500px;
+  width: 650px;
+  overflow: hidden;
 }
 
 .wgs-mole-head {
   position: absolute;
-  left: auto ; 
-  right: ;
+  overflow: hidden;
+  left: 109px ; ;
+  right: 155px ;
   height: ;
-  
+  transition: margin-top 0.25s;
 }
 
 .wgs-dirt-pile {
@@ -25,6 +24,10 @@ body {}
   top: 262px;
   height: ;
   width: ;
+}
+
+.wgs-mole-head--hidden {
+  margin-top: 500px;
 }
 
 
